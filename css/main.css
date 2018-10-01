@@ -1,0 +1,224 @@
+.bd-none, .btn, .todo__title, .todo__create, .todo__buttons .btn {
+  border: none;
+}
+
+.outline-none, .btn, .todo__title, .todo__create {
+  outline: none;
+}
+
+.p-none, .list-clear, .todo__body, .todo__create, .todo__buttons .btn {
+  padding: 0;
+}
+
+.m-none, .list-clear, .todo__body, body {
+  margin: 0;
+}
+
+.mt-none {
+  margin-top: 0;
+}
+
+.w-100p, #todo__body:empty:before,
+#todo__body--completed:empty:before, .todo__title {
+  width: 100%;
+}
+
+.pos-r, .todo__header, .todo__body, .todo__buttons .btn {
+  position: relative;
+}
+
+.pos-a, .todo__create, .todo__body:after, .todo__buttons .btn:last-child:before {
+  position: absolute;
+}
+
+.bg-none, .btn, .todo__buttons .btn {
+  background: none;
+}
+
+.pointer, .todo__create, .todo__buttons .btn {
+  cursor: pointer;
+}
+
+.fs-clear {
+  font-size: 0;
+  line-height: 1;
+}
+
+.list-clear, .todo__body {
+  list-style-type: none;
+}
+
+.ov-h, .todo__body {
+  overflow: hidden;
+}
+
+.text-center, #todo__body:empty:before,
+#todo__body--completed:empty:before, .todo__buttons .btn {
+  text-align: center;
+}
+
+.d-ib {
+  display: inline-block;
+}
+
+.d-b, #todo__body:empty:before,
+#todo__body--completed:empty:before {
+  display: block;
+}
+
+.d-n, .todo__body--completed:after {
+  display: none;
+}
+
+.d-f, .todo__item {
+  display: flex;
+}
+
+.justify-content-between, .todo__item {
+  justify-content: space-between;
+}
+
+.align-items-center, .todo__item {
+  align-items: center;
+}
+
+.main-ff, body, .todo__title {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#todo__body:empty:before,
+#todo__body--completed:empty:before {
+  color: #b3b3b3;
+  margin: 16px 0;
+  font-weight: 500;
+}
+
+#todo__body:empty:before {
+  content: "You don't have any work todo, relax :-)";
+}
+
+#todo__body--completed:empty:before {
+  content: "No todo items completed yet!";
+}
+
+.todo {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 3px 10px rgba(51, 51, 51, 0.15);
+}
+.todo__header {
+  padding: 16px;
+  background: #5DB896;
+  border-radius: 3px;
+}
+.todo__title {
+  font-size: 1.07143rem;
+  color: #fff;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 64px 0 16px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 3px 64px 64px 3px;
+}
+.todo__title::-webkit-input-placeholder {
+  color: #fff;
+}
+.todo__title::-moz-placeholder {
+  color: #fff;
+}
+.todo__title:-ms-input-placeholder {
+  color: #fff;
+}
+.todo__title:-moz-placeholder {
+  color: #fff;
+}
+.todo__create {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #fff;
+  top: 16px;
+  right: 16px;
+}
+.todo__create .material-icons {
+  color: #5DB896;
+}
+.todo__body {
+  padding: 0 16px;
+}
+.todo__body:after {
+  content: "";
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #e7e7e7;
+}
+.todo__body--completed .todo__item {
+  color: #b3b3b3;
+  text-decoration: line-through;
+}
+.todo__item {
+  font-weight: 500;
+  padding: 8px 16px;
+  background: #f4f4f4;
+  margin: 16px 0;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px 1px #dbdbdb;
+}
+.todo__buttons {
+  font-size: 0;
+  line-height: 0;
+  min-width: 80px;
+  /*Shu uyerga savol bn kelishingizni bilardim, mana sizga javob ;-)*/
+}
+.todo__buttons .btn {
+  width: 30px;
+  height: 30px;
+}
+.todo__buttons .btn:last-child {
+  margin-left: 16px;
+}
+.todo__buttons .btn:last-child:before {
+  content: "";
+  width: 1px;
+  height: 20px;
+  top: 50%;
+  left: -8px;
+  transform: translateY(-50%);
+  background: #dbdbdb;
+}
+.todo--delete {
+  color: rgba(241, 86, 179, 0.5);
+}
+.todo--delete:hover {
+  color: #F156B3;
+}
+.todo--complete {
+  color: rgba(93, 184, 150, 0.5);
+}
+.todo--complete:hover {
+  color: #5DB896;
+}
+
+/*# sourceMappingURL=main.css.map */

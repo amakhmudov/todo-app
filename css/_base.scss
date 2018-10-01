@@ -1,0 +1,112 @@
+.bd-none{
+	border: none;
+}
+
+.outline-none{
+	outline: none;
+}
+
+.p-none{
+	padding: 0;
+}
+
+.m-none{
+	margin: 0;
+}
+
+.mt-none{
+	margin-top: 0;
+}
+
+.w-100p{
+	width: 100%;
+}
+
+.pos-r{
+	position: relative;
+}
+
+.pos-a{
+	position: absolute;
+}
+
+.bg-none{
+	background: none;
+}
+
+.btn{
+	@extend .outline-none, .bg-none, .bd-none;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+.fs-clear{
+	font-size: 0;
+	line-height: 1;
+}
+
+.list-clear{
+	list-style-type: none;
+	
+	@extend .m-none, .p-none;
+}
+
+.ov-h{
+	overflow: hidden;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.d-ib{
+	display: inline-block;
+}
+
+.d-b{
+	display: block;
+}
+
+.d-n{
+	display: none;
+}
+
+.d-f{
+	display: flex;
+}
+
+.justify-content-between{
+	justify-content: space-between;
+}
+
+.align-items-center{
+	align-items: center;
+}
+
+.main-ff{
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
